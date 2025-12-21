@@ -9,6 +9,11 @@ URL:            https://savannah.nongnu.org/projects/dvipng/
 Source0:        http://download.savannah.gnu.org/releases/dvipng/%{name}-%{version}.tar.gz
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  kpathsea-devel gd-devel zlib-devel libpng-devel texinfo
 BuildRequires:  t1lib-devel freetype-devel
 
