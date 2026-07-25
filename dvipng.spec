@@ -1,6 +1,6 @@
 Name:           dvipng
 Version:        1.13
-Release:        %mkrel 1
+Release:        2
 Summary:        Converts DVI files to PNG/GIF format
 
 Group:          Publishing 
